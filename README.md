@@ -1,5 +1,5 @@
 # SampleCamelLambda
-Using Apache Quarkus to deploy an Apache Camel Route in an AWS Lambda
+Using RedHat Quarkus to deploy an Apache Camel Route in an AWS Lambda
 
 A small example to demonstrate using Apache Camel in AWS Lambda.
 
