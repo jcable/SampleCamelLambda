@@ -66,12 +66,4 @@ You should see something like:
 	2021-08-12 15:57:54,642 INFO  [input] (main) Exchange[ExchangePattern: InOut, BodyType: com.github.jcable.InputObject, Body: com.github.jcable.InputObject@61a5b4ae]
 	END RequestId: b9722842-ab37-4939-85e5-8d5987de6562
 	REPORT RequestId: b9722842-ab37-4939-85e5-8d5987de6562	Duration: 492.07 ms	Billed Duration: 493 ms	Memory Size: 256 MB	Max Memory Used: 144 MB	Init Duration: 2525.03 ms	
-	{"result":"hello Bill","requestId":"aws-request-1"}%                                                                                                                                             cablej01@MC-S104758 target % ./manage.sh invoke
-	Invoking function
-	++ aws lambda invoke response.txt --cli-binary-format raw-in-base64-out --function-name Samplecamellambda --payload file://payload.json --log-type Tail --query LogResult --output text
-	++ base64 --decode
-	START RequestId: cd6cd879-22b9-4ac8-ac5b-751d1cdd000f Version: $LATEST
-	2021-08-12 15:57:59,348 INFO  [input] (main) Exchange[ExchangePattern: InOut, BodyType: com.github.jcable.InputObject, Body: com.github.jcable.InputObject@7a34b7b8]
-	END RequestId: cd6cd879-22b9-4ac8-ac5b-751d1cdd000f
-	REPORT RequestId: cd6cd879-22b9-4ac8-ac5b-751d1cdd000f	Duration: 2.67 ms	Billed Duration: 3 ms	Memory Size: 256 MB	Max Memory Used: 144 MB	
-	{"result":"hello Bill","requestId":"aws-request-1"}
+	{"result":"hello Bill","requestId":"aws-request-1"}%                                                                                                                                             
